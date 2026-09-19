@@ -1,0 +1,12 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Marine Weather Warning Tracker",
+    "description": "One record per active marine hazard alert.",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Active alerts",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

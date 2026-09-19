@@ -1,0 +1,19 @@
+{
+    "title": "Marine Weather Warning Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "areas": {
+            "title": "Areas (state codes)",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Limit to these two-letter US coastal state/territory codes, e.g. \"FL\", \"CA\", \"HI\". Leave empty to check all coastal areas nationwide."
+        },
+        "eventTypes": {
+            "title": "Alert types",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Limit to these alert types: Small Craft Advisory, Gale Watch, Gale Warning, Storm Warning, Hurricane Force Wind Watch, Hurricane Force Wind Warning, Special Marine Warning, Marine Weather Statement, Coastal Flood Advisory, Coastal Flood Watch, Coastal Flood Warning, Coastal Flood Statement, High Surf Advisory, High Surf Warning, Rip Current Statement. Leave empty to check all of them."
+        }
+    }
+}

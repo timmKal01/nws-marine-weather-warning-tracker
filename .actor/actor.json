@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "nws-marine-weather-warning-tracker",
+    "title": "Marine Weather Warning Tracker: NWS Alerts by Area",
+    "description": "Check for active marine hazard alerts (Small Craft Advisory, Gale Warning, Storm Warning, Coastal Flood, High Surf, and more) from the official NOAA/National Weather Service feed, filtered by US coastal state. For boating operators, ports and shipping, and marine insurance. No key, no proxy.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

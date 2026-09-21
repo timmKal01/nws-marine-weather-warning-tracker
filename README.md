@@ -59,6 +59,11 @@ An empty result means no active marine alerts match your filters right now.
 Direct calls to `api.weather.gov`, official NOAA/National Weather Service
 alerts feed, US federal government data. No proxy, no scraping.
 
+## Pricing note
+
+Billed per **check**, not per alert returned, one charge whether the
+check finds no active marine alerts or several across every requested area.
+
 ## Related products
 
 - [Tsunami Warning Tracker](https://github.com/timmKal01/noaa-tsunami-warning-tracker) — same alert family, scoped to tsunami-specific events instead of everyday marine hazards

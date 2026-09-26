@@ -1,0 +1,73 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "id",
+                    "event",
+                    "severity",
+                    "certainty",
+                    "urgency",
+                    "headline",
+                    "areaDesc",
+                    "senderName",
+                    "effective",
+                    "expires",
+                    "nwsUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "id": {
+                        "label": "ID",
+                        "format": "text"
+                    },
+                    "event": {
+                        "label": "Event",
+                        "format": "text"
+                    },
+                    "severity": {
+                        "label": "Severity",
+                        "format": "text"
+                    },
+                    "certainty": {
+                        "label": "Certainty",
+                        "format": "text"
+                    },
+                    "urgency": {
+                        "label": "Urgency",
+                        "format": "text"
+                    },
+                    "headline": {
+                        "label": "Headline",
+                        "format": "text"
+                    },
+                    "areaDesc": {
+                        "label": "Area desc",
+                        "format": "text"
+                    },
+                    "senderName": {
+                        "label": "Sender name",
+                        "format": "text"
+                    },
+                    "effective": {
+                        "label": "Effective",
+                        "format": "date"
+                    },
+                    "expires": {
+                        "label": "Expires",
+                        "format": "date"
+                    },
+                    "nwsUrl": {
+                        "label": "NWS URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}

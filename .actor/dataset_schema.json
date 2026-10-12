@@ -6,6 +6,7 @@
             "title": "Overview",
             "transformation": {
                 "fields": [
+                    "status",
                     "id",
                     "event",
                     "severity",
@@ -16,12 +17,17 @@
                     "senderName",
                     "effective",
                     "expires",
-                    "nwsUrl"
+                    "nwsUrl",
+                    "checkedAt"
                 ]
             },
             "display": {
                 "component": "table",
                 "properties": {
+                    "status": {
+                        "label": "Status",
+                        "format": "text"
+                    },
                     "id": {
                         "label": "ID",
                         "format": "text"
@@ -65,6 +71,10 @@
                     "nwsUrl": {
                         "label": "NWS URL",
                         "format": "link"
+                    },
+                    "checkedAt": {
+                        "label": "Checked at",
+                        "format": "text"
                     }
                 }
             }

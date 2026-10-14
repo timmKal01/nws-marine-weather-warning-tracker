@@ -107,6 +107,6 @@ could be understood, isn't charged.
 
 ## Related products
 
-- [Tsunami Warning Tracker](https://github.com/timmKal01/noaa-tsunami-warning-tracker) — same alert family, scoped to tsunami-specific events instead of everyday marine hazards
-- [US Weather Forecast & Alerts Tracker](https://github.com/timmKal01/us-weather-tracker) — general forecast and alerts for any US location, not scoped to marine hazards
-- [Active Hurricane & Tropical Storm Tracker](https://github.com/timmKal01/active-hurricane-tracker) — named tropical cyclones specifically, from the National Hurricane Center
+- [Tsunami Warning Tracker](https://apify.com/m_ctim/noaa-tsunami-warning-tracker): same alert family, scoped to tsunami-specific events instead of everyday marine hazards
+- [US Weather Forecast & Alerts API (NWS)](https://apify.com/m_ctim/us-weather-tracker): general forecast and alerts for any US location, not scoped to marine hazards
+- [Active Hurricane Tracker](https://apify.com/m_ctim/active-hurricane-tracker): named tropical cyclones specifically, from the National Hurricane Center

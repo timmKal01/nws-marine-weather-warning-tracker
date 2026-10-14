@@ -1,15 +1,27 @@
-# Marine Weather Warning Tracker: NWS Alerts by Area
+# Marine Weather Warnings: Live NWS Alerts
 
-Check for active marine hazard alerts from the official NOAA/National
-Weather Service feed: Small Craft Advisory, Gale Warning, Storm Warning,
-Coastal Flood, High Surf, Rip Current, and more, filtered by US coastal
-state.
+Active marine weather warnings for U.S. coasts and waters, for ports,
+shipping, boating operators and marine insurance. Check a coastal state or
+ocean region and get every active marine hazard alert from the official
+National Weather Service feed: Small Craft Advisories, Gale and Storm
+Warnings, Coastal Flood, High Surf, Rip Currents and more.
+
+## What you get
+
+One row per active alert:
+
+- Alert type, severity, urgency and headline
+- The affected coastal zones or waters, and the issuing office
+- Start and expiry times
+- The official description and safety instructions
+
+When nothing is active for your area, you get one row that says so.
 
 ## Who this is for
 
-- **Boating and marine recreation operators** checking active hazard alerts before heading out.
-- **Ports and shipping operations** monitoring coastal conditions across multiple areas at once.
-- **Marine insurance underwriters** tracking active marine hazard warnings by region.
+- **Ports and shipping operations** checking hazards across several coastal areas at once.
+- **Boating, charter and marine recreation operators** checking alerts before heading out.
+- **Marine insurance underwriters** tracking active hazard warnings by region.
 
 ## Input
 

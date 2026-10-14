@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "nws-marine-weather-warning-tracker",
     "title": "Marine Weather Warnings: Live NWS Alerts",
-    "description": "Check for active marine hazard alerts (Small Craft Advisory, Gale Warning, Storm Warning, Coastal Flood, High Surf, and more) from the official NOAA/National Weather Service feed, filtered by US coastal state. For boating operators, ports and shipping, and marine insurance. No key, no proxy.",
+    "description": "Active marine weather warnings for U.S. coasts and waters from the official National Weather Service feed: Small Craft Advisory, Gale and Storm Warnings, Coastal Flood, High Surf and more, by coastal state. For ports, shipping, boating operators and marine insurance.",
     "version": "0.1",
     "meta": {
         "templateId": "custom-no-proxy"
